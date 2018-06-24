@@ -1,0 +1,11 @@
+<view class="movie" >
+  
+  <image src='{{movie.img}}'></image>
+  <text class='title'>{{movie.name}}</text>
+  <text class='director'>{{movie.director.name}}</text>
+  <text class='mins'>{{movie.mins}}</text>
+  <text class='story'>{{movie.story}}</text>
+
+
+
+</view>

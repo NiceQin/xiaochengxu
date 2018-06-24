@@ -1,0 +1,29 @@
+/* pages/detail/detail.wxss */
+.movie image {
+  display: block;
+  margin: 10rpx auto;
+
+}
+.movie text {
+  display: block;
+  padding: 10rpx;
+}
+.movie .title {
+  font-size: 40rpx;
+  color: red;
+  font-weight: 900;
+}
+.movie .director {
+  font-size: 30rpx;
+  color: skyblue;
+  
+}
+.movie .mins {
+  font-size: 30rpx;
+  color: goldenrod;
+ 
+}
+.movie .story {
+  font-size: 30rpx;
+  color: grey;
+}

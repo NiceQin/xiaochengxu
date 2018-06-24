@@ -1,0 +1,4 @@
+/* pages/api/api.wxss */
+view {
+  height: 1000px;
+}

@@ -1,0 +1,17 @@
+<button bindtap="weather" class="weather">天气预报API</button>
+<button bindtap="douban" class="weather">豆瓣API</button>
+<input bindconfirm="searchMovie" placeholder="请输入电影" confirm-type='search'></input>
+<view class='movies' wx:for="{{movies}}" bindtap='goto' data-id='{{item.movieId}}'>
+    
+    <view class='left'>
+        <text class='title'>{{item.titleCn}}</text>
+        <text class='type'>{{item.type}}</text>
+        <text class='director'>{{item.directorName}}</text>
+        <text class='detail'>{{item.commonSpecial}}</text>
+    </view>
+    <view class='right'>
+        <image src='{{item.img}}'></image>
+    </view>
+
+
+</view>

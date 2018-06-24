@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/douban_CS/douban_CS",
+    "pages/useAPI/useAPI",
+    "pages/detail/detail",
+    "pages/api/api",
+    "pages/index/index"
+
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  }
+}

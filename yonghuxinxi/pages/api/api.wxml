@@ -1,0 +1,3 @@
+<!--pages/api/api.wxml-->
+<button class='' bindtap='getAPI'>API</button>
+<view></view>

@@ -1,0 +1,39 @@
+.movies {
+  margin-top: 20rpx;
+  padding: 0 10rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.movies .title {
+  font-size: 40rpx;
+  font-weight: 900;
+}
+.left .type {
+  font-size: 24rpx;
+  color: green;
+  padding: 5rpx
+}
+.left .director {
+  font-size: 32rpx;
+  color: skyblue;
+  padding: 10rpx;
+}
+.left .detail {
+  font-size: 34rpx;
+  color: grey;
+  padding: 15rpx 5rpx;
+}
+.left {
+  flex: 1;
+}
+.left text{
+  display: block;
+}
+.right {
+  flex-basis: 180px;
+}
+.right image {
+  width: 180px;
+  height: 360rpx;
+  display: block;
+}
